@@ -1,2 +1,3 @@
-# recup_inf_pos
-Recuperando informação do Twitter usando Knime.
+# Recuperação da Informação na Web - Pós-Graduação  
+
+Trabalhos da pós-graduação sobre recuperação da informação na web.

@@ -1,0 +1,26 @@
+﻿Construção de mecanismos de coleta através da ferramenta KNIME.
+ 
+Utilizar os fluxos KNIME criados em aula para desenvolver a seguinte atividade:
+ 
+1 - Criar uma aplicação no Twitter
+        ◦ Obter credenciais
+        ◦ Coletar e armazenar uma nova consulta (criar nova tabela/db)
+        ◦ Pré-processar o texto e verificar frequência de termos
+        ◦ Unificar a coleta no Twitter no Fluxo da AULA 02
+            ▪ Realizar buscas por similaridade
+        ◦ Utilidade no projeto final
+            ▪ Coletar e extrair conteúdo de interesse no twitter
+            ▪ Escolha termos relevantes para o assunto
+ 
+2 - Coletar outra fonte RSS:
+        ◦ Encontre um Feed RSS diferente para teste
+        ◦ Salvar dados em uma tabela ou DB
+        ◦ Pré-processar o texto e verificar frequência de termos
+        ◦ Utilidade no projeto final
+            ▪ Coletar e extrair conteúdo de interesse em blogs e sites de notícias
+            ▪ Escolha fontes relevantes para o assunto escolhido
+            ▪ Transformar em documentos que podem em seguida ser processados para busca e outras técnicas
+ 
+Submeta as suas respostas e o fluxo KNIME gerado.
+Para submeter o fluxo KNIME, basta salvar o projeto e compactar o diretório  como ZIP ou você pode exportar através do próprio KNIME.
+

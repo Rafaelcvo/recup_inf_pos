@@ -1,0 +1,21 @@
+﻿Trabalho Prático (TP)
+ 
+Construção de uma máquina de busca baseada em modelo vetorial para a computação da similariade de documentos através da ferramenta KNIME
+ 
+Utilizar o fluxo KNIME criado em aula para desenvolver a seguinte atividade:
+    • Tarefa - Utilize a medida do cosseno no fluxo de similaridade com base em:
+        ◦ TF-IDF
+        ◦ TF-ICF e TF-IDF-ICF
+            ▪ ICF: Possível utilizar somente em bases que tenham uma classe (categoria) definida.
+                • Para a tarefa, utilizem a seguinte base de dados anexa ao múdulo:
+                    ◦ noticias_agricultura-automobilismo-meio_ambiente.table 
+                    ◦ Você deverá carregar, no KNIME, a base de dados de notícias, através do Nodo Table Reader.
+ 
+Procure avaliar as mudanças nos resultados
+    • Questões:
+    1. Houve alteração no ranking final (resultado) ao variar uma mesma consulta em cada uma das medidas (TF-IDF, TF-ICF, TF-IDF-ICF)?
+    2. Qual das métricas anteriores você considera que disponibilizou o melhor resultado (ranking)?
+ 
+Submeta as suas respostas e o fluxo KNIME gerado.
+Para submeter o fluxo KNIME, basta salvar o projeto e compactar o diretório  como ZIP ou você pode exportar através do próprio KNIME.
+
