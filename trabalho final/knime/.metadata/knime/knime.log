@@ -1,0 +1,21 @@
+2020-09-14 11:00:42,229 : WARN  : KNIME-Worker-0 :  : TileUpdateMessageInjector :  :  : Could not modify intro page: null
+java.lang.NullPointerException
+	at org.apache.xerces.dom.ParentNode.internalRemoveChild(Unknown Source)
+	at org.apache.xerces.dom.ParentNode.removeChild(Unknown Source)
+	at org.knime.product.rcp.intro.TileUpdateMessageInjector.injectReleaseTile(TileUpdateMessageInjector.java:127)
+	at org.knime.product.rcp.intro.TileUpdateMessageInjector.injectData(TileUpdateMessageInjector.java:137)
+	at org.knime.product.rcp.intro.AbstractInjector.run(AbstractInjector.java:152)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-09-14 11:01:16,609 : WARN  : Worker-6 :  : WorkflowCoachView :  :  : Could not update node recommendations statistics.
+java.io.IOException: Downloaded file doesn't contain node recommendation data.
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.checkDownloadedFile(AbstractFileDownloadTripleProvider.java:190)
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
+	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+2020-09-14 11:02:58,751 : WARN  : main :  : Node : Twitter API Connector : 2:1 : Consumer key is missing
+2020-09-14 11:02:58,879 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140083248763728}
+2020-09-14 11:10:29,636 : WARN  : main :  : Node : Twitter Search : 2:3 : Setting a query is mandatory.
+2020-09-15 13:13:31,827 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140240278853360}
