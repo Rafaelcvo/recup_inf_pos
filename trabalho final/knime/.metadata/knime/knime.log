@@ -19,3 +19,4 @@ java.io.IOException: Downloaded file doesn't contain node recommendation data.
 2020-09-14 11:02:58,879 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140083248763728}
 2020-09-14 11:10:29,636 : WARN  : main :  : Node : Twitter Search : 2:3 : Setting a query is mandatory.
 2020-09-15 13:13:31,827 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140240278853360}
+2020-09-16 16:17:16,564 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140425771920736}

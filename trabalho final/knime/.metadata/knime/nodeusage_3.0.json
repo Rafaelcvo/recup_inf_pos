@@ -22,9 +22,9 @@
             },
             {
                 "id":"org.knime.twitter.api.nodes.search.TwitterSearchFactory#Twitter Search",
-                "nrexecs":9,
+                "nrexecs":10,
                 "nrfails":0,
-                "exectime":70534,
+                "exectime":79602,
                 "nrcreated":1,
                 "successor":"NodeContainer"
             },
@@ -46,14 +46,14 @@
         "wrappedNodes":{
         }
     },
-    "uptime":3562777,
+    "uptime":4927850,
     "workflowsOpened":0,
     "remoteWorkflowsOpened":0,
     "workflowsImported":0,
     "workflowsExported":0,
-    "launches":1,
+    "launches":3,
     "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart":3562777,
+    "timeSinceLastStart":877089,
     "crashes":0,
     "properlyShutDown":true
 }
