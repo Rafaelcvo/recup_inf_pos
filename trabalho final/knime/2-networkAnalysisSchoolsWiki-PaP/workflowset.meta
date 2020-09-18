@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">Tobias Koetter</met:element>
+  <met:element form="date" name="Creation Date">17/11/2011</met:element>
+  <met:element form="multiline" name="Comments">This workflow analysis schools Wikipedia (http://schools-wikipedia.org) using the network analysis plugin.
+Schools Wikipedia is a subset of the English Wikipedia (http://en.wikipedia.org) and contains more than 5000 articles.
+Articles are represented as nodes in the network with the title of the article as node id.
+Each of the main categories e.g. art, science, mathematics, etc. are represented by a partition in the network and nodes are assigned to their corresponding partitions.
+
+The edges in the network represent hyperlinks of an article. Thus, each directed edge represents a hyperlink with the article that contains the hyperlink as source and the linked article as target node.
+
+The workflow demonstrates some basic network analysis tasks such as network filtering, shortest path and connected component detection.</met:element>
+</met:KNIMEMetaInfo>

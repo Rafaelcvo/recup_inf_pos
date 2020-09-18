@@ -1,0 +1,2 @@
+/home/rafael/git/recup_inf_pos/trabalho final/datasets/BD_Twitters_BancosDigitais.table
+/home/rafael/git/recup_inf_pos/trabalho final/knime/dataset/OneDrive-2020-09-16/BD_Twitters_BancosDigitais.table

@@ -1,1 +1,8 @@
-knime://knime.workflow/data.all
+file:/home/rafael/knime-workspace/Aula_03/dataset/POS_TAGGER_PT-BR/verbos_PT.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/POS_TAGGER_PT-BR/substantivos_PT_Wildcard.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/POS_TAGGER_PT-BR/substantivos_PT_dict_tagger.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/POS_TAGGER_PT-BR/adjetivos_PT_Wildcard.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/POS_TAGGER_PT-BR/adjetivos_PT_dict_tagger.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/STOP_WORDS/STOPWORDS_PT.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/SENTIMENT/NEGATIVE_EN_PT.csv
+file:/home/rafael/knime-workspace/Aula_03/dataset/SENTIMENT/POSITIVE_EN_PT.csv

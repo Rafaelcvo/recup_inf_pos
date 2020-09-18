@@ -1,0 +1,4 @@
+jdbc:mysql://<host>:<port>/<database_name>
+jdbc:sqlite://<host>:<port>/<database_name>
+jdbc:sqlite:/home/rafael/knime-workspace/pos graduacao/bd_curvelo/curvelo.sqlite
+jdbc:sqlite:/home/rafael/knime-workspace/pos graduacao/bolsonaro_guedes.sqlite

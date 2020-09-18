@@ -1,0 +1,1 @@
+/scratch/PUC/2_SEMESTRE/KNIME/knime-workspace/1_SEMESTRE_2020/GAED/networkAnalysis/2-networkAnalysisSchoolsWiki-PaP/schools_wikipedia_main_categories_directed.knet

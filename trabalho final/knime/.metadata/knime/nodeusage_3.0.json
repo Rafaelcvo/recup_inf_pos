@@ -22,9 +22,9 @@
             },
             {
                 "id":"org.knime.twitter.api.nodes.search.TwitterSearchFactory#Twitter Search",
-                "nrexecs":10,
+                "nrexecs":11,
                 "nrfails":0,
-                "exectime":79602,
+                "exectime":482472,
                 "nrcreated":1,
                 "successor":"NodeContainer"
             },
@@ -33,6 +33,70 @@
                 "nrexecs":1,
                 "nrfails":0,
                 "exectime":199,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.table.read.ReadTableNodeFactory#Table Reader",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":980703,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id":"org.knime.network.node.io.reader.NetworkReaderNodeFactory#Network Reader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":0,
+                "successor":"org.knime.network.node.filter.nodename.NodeNameFilterNodeFactory#Node Name Filter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs":11,
+                "nrfails":0,
+                "exectime":991234,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs":7,
+                "nrfails":0,
+                "exectime":472,
+                "nrcreated":1,
+                "successor":"org.knime.network.node.inserter.object.ObjectInserterNodeFactory#Object Inserter"
+            },
+            {
+                "id":"org.knime.network.node.inserter.object.ObjectInserterNodeFactory#Object Inserter",
+                "nrexecs":6,
+                "nrfails":0,
+                "exectime":309,
+                "nrcreated":1,
+                "successor":"org.knime.network.node.viz.viewer.NetworkViewerNodeFactory#Network Viewer (local)"
+            },
+            {
+                "id":"org.knime.network.node.viz.viewer.NetworkViewerNodeFactory#Network Viewer (local)",
+                "nrexecs":6,
+                "nrfails":0,
+                "exectime":36954,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":3,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.definition.apply.FilterApplyNodeFactory#Filter Apply",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
                 "nrcreated":1,
                 "successor":"n/a"
             }
@@ -46,14 +110,14 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4927850,
-    "workflowsOpened":0,
+    "uptime":6928045,
+    "workflowsOpened":6,
     "remoteWorkflowsOpened":0,
     "workflowsImported":0,
     "workflowsExported":0,
-    "launches":3,
+    "launches":5,
     "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart":877089,
+    "timeSinceLastStart":11908321,
     "crashes":0,
     "properlyShutDown":true
 }
